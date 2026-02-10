@@ -16,11 +16,15 @@ This repository contains the C++ implementation used to generate the results pre
 The CMake project is located in `CODE/` (contains `CMakeLists.txt`).
 
 git clone <REPO_URL>
+
 cd <REPO_NAME>
 
 mkdir -p build
+
 cd build
+
 cmake ../CODE
+
 make
 
 ./facilitylocation
